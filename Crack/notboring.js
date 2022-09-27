@@ -6,7 +6,7 @@
 > 脚本作者：Cuttlefish
 > 微信账号：墨鱼手记
 > 解锁说明：解锁高级会员权限
-> 更新时间：2022-06-18
+> 更新时间：2022-09-27
 > 通知频道：https://t.me/ddgksf2021
 > 贡献投稿：https://t.me/ddgksf2013_bot
 > 特别提醒：如需引用请注明出处，谢谢合作！
@@ -18,7 +18,7 @@
   
 # ～ Not Boring 四件套[天气、习惯、日历、时间] 解锁会员权限（2022-06-18）@ddgksf2013
 
-^https?:\/\/api-weather\.andy\.works\/v\d\/\w{18}$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/notboring.js
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{13}$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/notboring.js
 
 [mitm] 
 
