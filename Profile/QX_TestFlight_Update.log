@@ -1,7 +1,7 @@
 ####################################################################################################
 #日志名称：  QuantumultX TF Update Log
 #日志作者：  @Cuttlefish, @kyle, @ddgksf2013
-#更新时间：  2022-08-23
+#更新时间：  2022-10-04
 #微信账号：  公众号墨鱼手记
 #使用说明：  可全局搜索🔍关键词
 #后续更新：  随Testflight陆续更新…
@@ -12,19 +12,27 @@
 
 
 
+1.1.0 (766)
+- 一些兼容性调整
+- 修复某些设备上设置圆角底栏时的显示问题（build 765）
 
+1.1.0 (765)
+- 细节调整
+
+1.1.0 (764)
 - 部分界面布局调整
 
+1.1.0 (763)
 - 移除之前为 iPadOS 16.1 beta 引入的一个 workaround，请务必将之前的 iPadOS 16.1 beta 升级至最新版本 iPadOS 16.1 beta (20B5045d)
 
-
+1.1.0 (762)
 - Built using Xcode 14 and issue fixes
 
 
-
+1.1.0 (760)
 - 修复运行临时脚本的记录未在脚本记录页显示的问题
 
-
+1.1.0 (759)
 - [mitm] 模块增加参数 skip_src_ip 与 skip_dst_ip，具体可参见应用内示例配置
 
 1、skip_src_ip
@@ -44,24 +52,25 @@
 原因：好些服务器喜欢对 DNS 查询进行域名"内""外"分流（或出口目标分流），当服务器出现某些故障时，可能只针对 google.com 之类的"外"域名无法解析，但对于 baidu.com 之类的"内"域名可解析，此时使用 baidu.com 进行节点 URL 测试时为连通状态，但实际无法代理需要代理的地址
 
 
-
+1.1.0 (758)
 - In the HTTP(S) request detail view, tapping the record initated with "fetch" can jump to the related rewrite or task JS record page.
 
+1.0.31 (756)
 - 临时移除 beta build 753 第 2 条更新内容，进一步兼容 iOS Beta 16.0 及 iPadOS Beta 16.1，如升级至该版本遇到 Quantumult X Tunnel 自启产生的网络问题可"邮箱"反馈
 注：
 开启排除路由 0.0.0.0/31 产生的网络（或自启）异常请自行解决（建议的解决方式：关闭该功能并重启设备）
 
-
+1.0.31 (755)
 - 进一步兼容 iOS Beta 16.0 及 iPadOS Beta 16.1
 
-
+1.0.31 (753)
 - 修复某些界面在用户设置了加粗字体时的显示异常
 - 该版本及之后版本之间的升级或降级，增加需手动启用 VPN 连接的提示（如升级过程中 Quantumult X Tunnel 正在运行）
 
-
+1.0.31 (751)
 - 细节完善
 
-
+1.0.31 (750)
 - 兼容 iPadOS Beta 16.1
 
 
