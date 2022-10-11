@@ -11,3 +11,7 @@
 | 7    | 抖音最新版增加了防MIMT措施，因此无法去广告              |
 | 8    | 如果APP开屏广告仍然存在，请卸载重装，还是不行则没有     |
 | 9    | 观看TikTok请使用旧版V21.1.0、重写规则，拔卡则无需旧版应用 |
+| 10    | IOS16天气已无法mimt,请添加-weather-data.apple.com |
+| 11    | QX域名类：host＞host-suffix＞host-keyword＞ip类＞geoip＞final |
+| 12    |如果B站去广告间歇性失效，可在[filter_local]下添加ip-cidr, 203.107.1.1/24, reject |
+| 13    |Bilibili大会员每月可以领取5币，这个币咸鱼有人收，3元，注意不要浪费了 |
