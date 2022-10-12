@@ -8,11 +8,11 @@
 > 投稿助手：https://t.me/ddgksf2013_bot
 > 问题反馈：📮 ddgksf2013@163.com 📮
 > 特别说明：本脚本仅供学习交流使用，禁止转载售卖
-> 解锁应用：如下所示（共计24个）陆续更新...
+> 解锁应用：如下所示（共计25个）陆续更新...
 
 Pixelmator、Planny、Gear、图图记账、Aphrodite、Apollo、MoneyThings、目标地图、Audiomack
 1Blocker、Scanner Pro、Darkroom、谜底时钟、Pillow、VSCO、Grow、WhiteCloud、Fin、奇妙组件
-Widgetsmith、vision、Percento、Airmail、Usage
+Widgetsmith、vision、Percento、Airmail、Usage、Spark
 
 [rewrite_local]
 
