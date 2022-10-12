@@ -17,7 +17,7 @@ Widgetsmith、vision、Percento、Airmail、Usage
 [rewrite_local]
 
 # ～ RevenueCat（2022-10-12）@ddgksf2013
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/new/master/Crack/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/revenuecat.js
 
 [mitm]
 
