@@ -52,8 +52,7 @@ function Traditionalized(cc){
 	for(var i=0;i<cc.length;i++){ 
 		if(charjt().indexOf(cc.charAt(i))!=-1) 
 			str+=charft().charAt(charjt().indexOf(cc.charAt(i))); 
-		else if(charhx().indexOf(cc.charAt(i))!=-1) 
-			str+=charft().charAt(charhx().indexOf(cc.charAt(i))); 
+		
 		else 
 			str+=cc.charAt(i); } 
 		return str; 
@@ -64,8 +63,6 @@ function Simplized(cc){
 	for(var i=0;i<cc.length;i++){ 
 		if(charft().indexOf(cc.charAt(i))!=-1) 
 		str+=charjt().charAt(charft().indexOf(cc.charAt(i))); 
-	else if(charhx().indexOf(cc.charAt(i))!=-1) 
-		str+=charjt().charAt(charhx().indexOf(cc.charAt(i))); 
 	else 
 		str+=cc.charAt(i); } 
 	return str; 
