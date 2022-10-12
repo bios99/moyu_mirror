@@ -9,7 +9,7 @@
 > 问题反馈：📮 ddgksf2013@163.com 📮
 > 特别说明：本脚本仅供学习交流使用，禁止转载售卖
 > 默默私语：Speed SSL Ping
-> 解锁应用：如下所示（共计26个）陆续更新...
+> 解锁应用：如下所示（共计27个）陆续更新...
 
 Pixelmator、Planny、Gear、图图记账、Aphrodite、Apollo、MoneyThings、目标地图、Audiomack
 1Blocker、Scanner Pro、Darkroom、谜底时钟、Pillow、VSCO、Grow、WhiteCloud、Fin、奇妙组件
