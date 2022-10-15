@@ -22,7 +22,6 @@
 ## 2️⃣QuantumultX 分流：
 * 网易云音乐分流 [*NeteaseMusic.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
 * 自用影视广告屏蔽 [*Mybreak.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list)
-* 自用去广告分流 [*Anti-ad.list*](https://anti-ad.net/surge2.txt)
 * IP隐藏の分流 [*Anti-ip.list*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Filter/anti-ip-attribution.list)
 > 更多的分流请参考 [*@DivineEngine*](https://github.com/DivineEngine) 提供的 [***Quantumult X 分流***](https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter)
 
