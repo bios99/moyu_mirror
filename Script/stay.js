@@ -19,7 +19,7 @@
 
 [mitm]
 
-hostname=api.aliyundrive.com
+hostname=api.shenyin.name
 
 ***********************************/
 
