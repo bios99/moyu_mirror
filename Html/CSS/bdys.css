@@ -7,3 +7,4 @@ div.jq-toast-wrap{display:none!important;}
 #related{display:none!important;}
 #yalayi{display:none!important;}
 .ayx[style^="position: fixed;bottom"]
+.ayx[style="display:block;"]
