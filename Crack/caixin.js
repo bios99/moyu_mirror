@@ -5,7 +5,7 @@
 > 下载地址：https://apps.apple.com/us/app/id356023612
 > 脚本作者：Cuttlefish
 > 微信账号：墨鱼手记
-> 更新时间：2022-10-17
+> 更新时间：2022-10-22
 > 通知频道：https://t.me/ddgksf2021
 > 投稿助手：https://t.me/ddgksf2013_bot
 > 问题反馈：📮 ddgksf2013@163.com 📮
@@ -44,7 +44,7 @@ hostname=gateway.caixin.com
 
 
 
-$request.url.replace(/uid=(\d+|)/g,"uid=12622061")
+const url=$request.url.replace(/uid=(\d+|)/g,"uid=12622061")
             .replace(/code=(\w+|)/g,"code=BB1F6E9C759991C1DAD418A7E8C6509E")
             .replace(/device=(\w+|)/g,"device=af491839f424cf75f07d7f4d6b7a30bde3296ea2")
             .replace(/deviceType=(\d+|)/g,"deviceType=1");
