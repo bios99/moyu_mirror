@@ -45,7 +45,7 @@ hostname=gateway.caixin.com
 
 
 $request.url.replace(/uid=(\d+|)/g,"uid=12622061")
-            .replace(/code=(\w+|)/g,"code=BB1F6E9C759991C1DAD418A7E8C6509E")
+            .replace(/code=(\w+|)/g,"code=7258E07D155FE91FB868E545947DDCAB")
             .replace(/device=(\w+|)/g,"device=af491839f424cf75f07d7f4d6b7a30bde3296ea2")
             .replace(/deviceType=(\d+|)/g,"deviceType=1");
 if($request['url']['indexOf']('validateAudioAuth')!=-0x1){
