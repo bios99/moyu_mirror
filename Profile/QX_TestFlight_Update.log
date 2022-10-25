@@ -12,6 +12,26 @@
 
 
 
+- 节点参数 obfs=http 扩展两个类似选项 obfs=shadowsocks-http 与 obfs=vmess-http
+
+说明：
+1、混淆方式 shadowsocks 的 simple obfs 中的 HTTP 混淆方式与 V2Ray 中的 HTTP 混淆方式并不完全相同。
+2、前者是模拟 websocket 协议的握手过程，后者模拟其他普通 HTTP 请求。前者对 HTTP 请求及响应头相关字段是有些要求的（部分客户端与服务端实现并不检查这个，直接忽略并进行后续数据传输，因此未发现异常）。
+3、Build 770 之所以引入选项 obfs=shadowsocks-http 与 obfs=vmess-http，是因为某些用户部署的服务端采用的组合为 shadowsocks 协议搭配 V2Ray 的 HTTP 混淆方式。
+
+之前版本当 Quantumult X 中配置为 obfs=http 时，在协议 shadowsocks 中使用 simple obfs HTTP 混淆方式，在协议 VMess 中使用 V2Ray 的 HTTP 混淆方式。此时如果服务端为 shadowsocks 协议搭配 V2Ray 的 http 混淆，则 Quantumult X 会主动中断该连接（因返回的 HTTP 混淆响应头不符），该行为在今后版本中持续保持。
+如需与 shadowsocks 协议搭配 V2Ray 的 HTTP 混淆的服务端（例如使用 V2Ray 搭建的 shadowsocks + V2Ray 内建的 HTTP 混淆）使用，请将 Quantumult X 中 shadowsocks 协议混淆配置为 obfs=vmess-http
+如需与 VMess 协议搭配 simple obfs 的 HTTP 混淆的服务端使用，请将 Quantumult X 中 VMess 协议混淆配置为 obfs=shadowsocks-http
+
+
+ 
+- Rewrite 规则命中支持额外 header 匹配，即当 URL 匹配之后 header 且匹配的情况下才执行该 rewrite 规则
+- 这里用以匹配的 header 字符串还包含请求方法及路径 「＜URL regular expression＞ ＜header regular expression＞ url-and-header ＜type of rewrite action＞」
+
+例：
+^http://example\.com/resource/1/ ^POST url-and-header reject
+^http://example\.com/resource/0/ \r\nUser-Agent: example-agent url-and-header reject
+
 
 1.1.0 (767)
 - Beta Test
